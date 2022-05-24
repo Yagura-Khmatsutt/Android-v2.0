@@ -6,7 +6,54 @@
     box-sizing: border-box;
 }
 html
-{
+{   
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: rgba(207, 207, 207, 0.959);
+   
+}
+
+header
+{
+    height: 25vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(rgba(17, 17, 17, 0.219), rgba(20, 20, 20, 0.342)),url(/image/pexels-jessica-lewis-creative-593322.jpg);
+    background-position: center center; 
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
+}
+
+
+.contentNav
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.contentLogo
+{
+    margin-top: 20px;
+    margin-left: -25px;
+    font-size: .9rem;
+    letter-spacing: 0.4rem;
+}
+
+.contentList
+{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.contentList  a
+{
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    
 }
