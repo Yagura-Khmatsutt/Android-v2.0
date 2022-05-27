@@ -17,7 +17,7 @@ header
     height: 25vh;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(20, 20, 20, 0.5)),url(/image/pexels-jessica-lewis-creative-593322.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(20, 20, 20, 0.5)),url(../image/pexels-jessica-lewis-creative-593322.jpg);
     background-position: center center; 
     background-size: cover;
     background-position-y: 0px;
@@ -119,12 +119,12 @@ article.imag h2
 
 .imag#img1
 {
-    background-image: url(/image/fundoimagephone.jpg);
+    background-image: url(../image/fundoimagephone.jpg);
     background-size: cover;
 }
 .imag#img2
 {
-    background-image: url(/image/pexels-pixabay-356056.jpg);
+    background-image: url(../image/pexels-pixabay-356056.jpg);
     background-size: cover;
     box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.692);
     background-size: cover;
@@ -175,7 +175,7 @@ footer
     justify-content: center;
     height: 120px;
     text-align: center;
-    background-image: url(/image/pexels-abet-llacer-919734.jpg);
+    background-image: url(../image/pexels-abet-llacer-919734.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: white;
