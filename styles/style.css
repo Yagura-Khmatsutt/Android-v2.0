@@ -27,7 +27,6 @@ header
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.212);
 }
 
-
 .contentNav
 {
     height: 100%;
@@ -72,22 +71,50 @@ main h1
 {
     font-family: 'Press Start 2P', cursive;
     color: rgb(98, 197, 40);
-    font-size: 1.rem;
+    font-size: 1.3em;
 }
 article
 {
     margin-left: 40px;
     margin-right: 40px;
 }
+article.normal
+{
+    padding: 12px;
+    line-height: 2.4em;
+    text-indent: 50px;
+}
+article.normal h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+article.normal h2
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+    color: rgb(98, 197, 40);
+}
+
 
 article.imag
 {   
     margin: auto;
     padding: 80px;
-    box-shadow: inset 6px 6px 12px 0px black;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.692);
     background-size: cover;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.555);
     background-attachment: fixed;
+    line-height: 2.4em;
+    text-indent: 50px;
+    font-size: 1.2rem;
+}
+article.imag h2
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+    color: rgb(98, 197, 40);
 }
 
 .imag#img1
@@ -95,3 +122,68 @@ article.imag
     background-image: url(/image/fundoimagephone.jpg);
     background-size: cover;
 }
+.imag#img2
+{
+    background-image: url(/image/pexels-pixabay-356056.jpg);
+    background-size: cover;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.692);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+aside
+{
+    background-image: linear-gradient( to left, #8cad52 ,#91e49c);
+    padding: 10px;
+}
+ .contentList
+{
+   
+    margin: 50px 30px 40px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-indent: 20px;
+    color: white;
+}
+.contentList ul
+{
+    list-style: none;
+    columns: 2;
+    margin-bottom: 20px;
+
+}
+.contentFinal
+{
+    margin: 40px 20px 40px 20px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-indent: 20px;
+}
+.contentFinal a
+{
+    text-decoration: none;
+    color: #8cad52;
+    font-weight: bold;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    text-align: center;
+    background-image: url(/image/pexels-abet-llacer-919734.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
